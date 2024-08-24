@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyqt"
+version = "0.1.0"
+description = ""
+authors = ["Marcelo Cesar dos Santos <marcelocsantos7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyQt5 = "5.15.11"
+PyQt5-Qt5 = "5.15.2"
+pillow = "^10.4.0"
+matplotlib = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
